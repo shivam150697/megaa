@@ -10,6 +10,6 @@ class Config(object):
     DOWNLOAD_LOCATION = "./NexaBots"
     TG_MAX_SIZE = 2040108421
     # Mega User Account
-    USER_ACCOUNT = os.environ.get("USER_ACCOUNT", "False")
+    USER_ACCOUNT = os.environ.get("USER_ACCOUNT", "True")
     MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "paidmaterial7@gmail.com")
     MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD", "987654321@abc")
